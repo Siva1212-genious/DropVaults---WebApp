@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-main-container{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+/*
+.post-h1{
+
+    text-align: center;
+
+    margin: 0;
+    padding: 10px;
+
+    border-bottom: 1px solid black;
+    box-shadow: 0px 8px 10px rgb(0,0,0,0.2);
+
+}
+    */
+
+.Posts-Heading-Bar{
+
+    display: flex;
+}
+
+.Logout-button{
+
+    flex:1;
+    display: flex;
+    justify-content: end;
+
+    padding: 25px 20px;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+
+    font-size: larger;
+}
+
+.post-page-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Paragraph-container{
+
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to right, rgb(244, 139, 253), white);
+    border-right: 1px solid rgb(168, 168, 168);
+
+    box-shadow: 0px 10px 12px rgb(0,0,0,0.2);
+
+}
+
+.post-heading2{
+    margin-top: 30px;
+
+    color:#400366;
+
+    line-height: 30px;
+}
+
+.post-paragraph{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+
+    width: 75%;
+
+}
+
+.post-input-container{
+
+    flex: 2;
+
+    height: 100vh;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background: linear-gradient(to top,rgb(248, 208, 248),white);
+
+    border: none;
+}
+
+.post-input{
+
+    width: 80%;
+
+    padding: 20px;
+
+    font-size: large;
+
+    border: 1px solid black;
+    border-radius: 20px;
+
+    box-shadow: 0px 8px 10px rgb(0,0,0,0.2);
+}
+
+.textarea-input{
+
+    width: 80%;
+    height: 120px;
+
+    padding: 20px;
+
+    font-size: large;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgb(0,0,0,0.2);
+
+}
+
+.post-button{
+
+    width: 40%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 15px;
+
+    font-size: large;
+
+    background-color: rgb(248, 200, 69);
+    box-shadow: 0 8px 10px rgb(0,0,0,0.2);
+
+    border-radius: 20px;
+}
+
+.post-button:hover{
+
+    background-color: rgb(247, 244, 67);
+    cursor: pointer;
+}
+
+.Label-container{
+
+    font-size: x-large;
+
+    font-weight: bolder;
+
+    color: #400366;
+}
+
+
