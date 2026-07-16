@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login-header{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.login-header h2{
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+
+    border: 1px solid #00bfff;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+
+    box-shadow: 0 4px 12px rgba(0, 114, 255, 0.35);
+    transition:0.3s;
+}
+
+.header-link{
+
+    text-decoration: none;
+
+    border: 1px solid rgb(145, 246, 253);
+    padding: 10px 25px;
+
+    font-size: larger;
+    font-weight: bold;
+
+    background: linear-gradient(to left, #84d7ee, #86b7f3);
+    color: rgb(3, 58, 102);
+
+    border-radius: 40px;
+    box-shadow: 0px 8px 10px rgb(0,0,0,0.2);
+    margin-right: 30px;
+
+    transition: 0.3s;
+}
+
+.login-page-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login-container{
+    flex: 1;
+    display: flex;
+    box-shadow: 0 8px 10px rgb(0,0,0,0.2);
+}
+
+.login-container > div{
+    flex: 3;
+}
+
+
+.login-image{
+
+    max-width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+    box-shadow: 0 8px 10px rgb(0,0,0,0.2);
+}
+
+.input-containers{
+
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 10px;
+    border: 1px solid black;
+    
+}
+
+
+.input-cont{
+    width: 60%;
+    height: 5px;
+    padding: 20px;
+
+    font-size: large;
+    text-align: center;
+
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.button-container{
+
+    width: 60%;
+    height: 30px;
+
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: large;
+
+    background-color: rgb(253, 216, 115);
+
+    margin-top: 20px;
+
+}
+
+.button-container:hover{
+    background-color: rgb(247, 244, 67);
+    cursor: pointer;
+}
+
+.label-container{
+    font-size: larger;
+    margin: 0;
+
+}

@@ -1,0 +1,150 @@
+.hamburger{
+    font-size: 30px;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.hamburger:hover{
+    background: #eeeeee;
+    background: none;
+}
+
+.close{
+
+    width: 250px;
+
+    border: none;
+    background: none;
+
+    display: flex;
+    justify-content: end;
+
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+.close:hover{
+    background: #eeeeee;
+    border-radius: 20px;
+}
+
+
+.menu-links{
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+
+    margin-top: 60px;
+}
+
+
+.navbar{
+    background: white;
+    max-height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    
+
+    padding: 0 20px;
+
+    border-bottom: 1px solid black;
+    box-shadow: 8px 0 10px rgb(0,0,0,0.2);
+
+}
+
+.navbar h2{
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+
+    border: 1px solid #00bfff;
+    border-radius: 50px;
+    padding: 5px 20px;
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+
+    box-shadow: 0 4px 12px rgba(0, 114, 255, 0.35);
+    transition:0.3s;
+}
+
+.Nav-H1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.Logout-button{
+
+    border: none;
+    background: none;
+    display: block;
+
+    cursor: pointer;
+
+    font-size: large;
+
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+
+.sidebar{
+
+    position: fixed;
+
+    width: 250px;
+    height: 100vh;
+
+    background: white;
+    box-shadow: 2px 0px 8px gray;
+
+    top: 0;
+    left: -250px;
+
+    transition: .6s;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 30px;
+
+}
+
+.sidebar.active{
+    left: 0;
+}
+
+.sidebar a{
+    text-decoration: none;
+
+    color: rgb(29, 28, 28);
+
+    padding: 5px 25px;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sidebar a:hover{
+    
+    color: rgb(155, 18, 247);
+}
